@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  text-align: left;
+  height: 66px;
+}
+
+.header_right {
+  text-align: left;
+}
+
+.nav_link:first-child:before {
+  content: '';
+}
+.nav_link::before {
+  padding-inline: 0px 3px;
+  content: '|';
+}
