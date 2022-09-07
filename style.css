@@ -1,23 +1,46 @@
 .header {
+  background-color: white;
   width: 100%;
   display: flex;
+
   justify-content: space-around;
   align-items: center;
 }
 
-.logo {
-  text-align: left;
-  height: 66px;
+img {
+  height: 50px;
+  width: 200px;
+  margin-left: 200px;
+  margin-right: 600px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.nav {
+  margin-top: 200px;
 }
 
 .header_right {
   text-align: left;
+
 }
 
 .nav_link:first-child:before {
   content: '';
 }
+
 .nav_link::before {
   padding-inline: 0px 3px;
   content: '|';
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
