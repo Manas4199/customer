@@ -10,6 +10,14 @@
   height: 66px;
 }
 
-.header_navbar {
-  text-align: right;
+.header_right {
+  text-align: left;
+}
+
+.nav_link:first-child:before {
+  content: '';
+}
+.nav_link::before {
+  padding-inline: 0px 3px;
+  content: '|';
 }
