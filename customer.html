@@ -1,107 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Windstream</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="logo">
-        <img src="images/windstream.jpg" alt="Windstream" />
-      </div>
-      <div class="header_right">
-        <nav>
-          <a class="nav_link" href="#">BILLING</a>
-          <a class="nav_link" href="#">CONTACT US</a>
-          <a class="nav_link" href="#">STORES</a>
-        </nav>
-        <nav>
-          <a class="nav_link" href="">Welcome</a>
-          <span class="userId">123456</span>
-          <a class="nav_link" href="#">LOGOUT</a>
-        </nav>
-      </div>
-    </header>
-    <main class="all_contents">
-      <nav class="nav">
-        <ul class="nav_list" id="nav_list">
-          <a href="#Add_Customer_info" class="button nav_button active"
-            >Add Customer Account</a
-          >
-          <a href="#" class="nav_button">Delete Customer Account</a>
-          <a href="#" class="nav_button">New Search</a>
-          <a href="#" class="nav_button">Make payment</a>
-          <a href="#" class="nav_button">Payment History</a>
-          <a href="#" class="nav_button">Create Account</a>
-          <a href="#" class="nav_button">LogOut</a>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Windstream</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/windstream.jpg" alt="Windstream" />
+    </div>
+    <div class="header_right">
+      <nav>
+        <a class="nav_link" href="#">BILLING</a>
+        <a class="nav_link" href="#">CONTACT US</a>
+        <a class="nav_link" href="#">STORES</a>
       </nav>
-      <div class="content">
-        <section id="cu">
-          <form>
-            <div class="h">
-              <h2 id="Add_Customer_info">Add Customer Info</h2>
-            </div>
-            <hr />
-            <div>
-              <label for="su">Select user</label>
-              <select>
-                <option>Manas</option>
-                <option>Khairul</option>
-                <option>Manoj</option>
-                <option>Gopi</option>
-              </select>
-              <h1>Customer Info</h1>
-            </div>
-            <hr />
-            <div>
-              <label for="pn">Property Name</label>
-              <input type="text" id="pn" />
-            </div>
-            <div>
-              <label for="cn">Customer Name</label>
-              <input type="text" id="cn" />
-            </div>
-            <div>
-              <label for="email">Email Address</label>
-              <input type="email" id="email" />
-            </div>
-            <div>
-              <label for="ba1">Billing Address1</label>
-              <input type="text" id="ba1" />
-            </div>
-            <div>
-              <label for="ba2">Billing Address2</label>
-              <input type="text" id="ba2" />
-            </div>
-            <div>
-              <label for="city">City</label>
-              <input type="text" id="city" />
-            </div>
-            <div>
-              <label for="State">State</label>
-              <select>
-                <option>West Bengal</option>
-                <option>Tamilnadu</option>
-                <option>Telangana</option>
-                <option>odisha</option>
-              </select>
-            </div>
-            <div>
-              <label for="Z">Zip</label>
-              <input type="number" id="Z" />
-            </div>
-            <div>
-              <input type="submit" value="Save" id="submit" />
-            </div>
-          </form>
-        </section>
-      </div>
-    </main>
-    <script src="./JavaScript.js"></script>
-  </body>
+      <nav>
+        <a class="nav_link" href="">Welcome</a>
+        <span class="userId">123456</span>
+        <a class="nav_link" href="#">LOGOUT</a>
+      </nav>
+    </div>
+  </header>
+  <main class="all_contents">
+    <nav class="nav">
+      <ul class="nav_list" id="nav_list">
+        <a href="#Add_Customer_info" class="button nav_button active">Add Customer Account</a>
+        <a href="#" class="nav_button">Delete Customer Account</a>
+        <a href="#" class="nav_button">New Search</a>
+        <a href="#" class="nav_button">Make payment</a>
+        <a href="#" class="nav_button">Payment History</a>
+        <a href="#" class="nav_button">Create Account</a>
+        <a href="#" class="nav_button">LogOut</a>
+      </ul>
+    </nav>
+    <div class="content">
+      <section id="cu">
+        <form>
+          <div class="h">
+            <h1 id="Add_Customer_info">Add Customer Info</h1>
+          </div>
+          <hr>
+          <div>
+            <label for="su" class="su">Select user</label>
+            <select id="su">
+              <option>Manas</option>
+              <option>Khairul</option>
+              <option>Manoj</option>
+              <option>Gopi</option>
+            </select>
+            <h2>Customer Info</h2>
+          </div>
+          <hr />
+          <div>
+            <label for="pn" class="pn">Property Name</label>
+            <input type="text" id="pn" />
+          </div>
+          <div>
+            <label for="cn">Customer Name</label>
+            <input type="text" id="cn" />
+          </div>
+          <div>
+            <label for="email" class="email">Email Address</label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label for="ba1" class="ba1">Billing Address1</label>
+            <input type="text" id="ba1" />
+          </div>
+          <div>
+            <label for="ba2" class="ba2">Billing Address2</label>
+            <input type="text" id="ba2" />
+          </div>
+          <div>
+            <label for="city" class="city">City</label>
+            <input type="text" id="city" />
+          </div>
+          <div>
+            <label for="State" class="st">State</label>
+            <select id="State">
+              <option>West Bengal</option>
+              <option>Tamilnadu</option>
+              <option>Telangana</option>
+              <option>odisha</option>
+            </select>
+          </div>
+          <div>
+            <label for="Z" class="z">Zip</label>
+            <input type="number" id="Z" />
+          </div>
+          <div>
+            <input type="submit" value="Save" id="submit" />
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+  <script src="./JavaScript.js"></script>
+</body>
+
 </html>

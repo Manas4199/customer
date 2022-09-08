@@ -13,8 +13,8 @@ body {
 }
 
 img {
-  height: 50px;
-  width: 200px;
+  height: 70px;
+  width: 180px;
   margin-left: 200px;
   margin-right: 600px;
 }
@@ -80,4 +80,118 @@ section {
   justify-content: center;
   left: 600px;
   position: absolute;
+}
+
+#Add_Customer_info {
+  text-align: center;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+#su {
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.su {
+  margin-left: 40px;
+}
+
+#pn {
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.pn {
+  margin-left: 7px;
+}
+
+#cn {
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+#email {
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.email {
+  margin-left: 11px;
+}
+
+#ba1 {
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.ba1 {
+  margin-left: -3px;
+}
+
+#ba2 {
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.ba2 {
+  margin-left: -2px;
+}
+
+
+#city {
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.city {
+  margin-left: 79px;
+}
+
+#State {
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.st {
+  margin-left: 75px;
+}
+
+#Z {
+  position: relative;
+  left: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.z {
+  margin-left: 83px;
+}
+
+#submit {
+  margin-left: 350px;
+  border-color: none;
+  background-color: #77b900;
+  color: #fefefe;
+  border-radius: 5px;
 }
