@@ -49,14 +49,21 @@ img {
 
 .nav_button {
   font-size: 12px;
+  color: #3c3c3c;
   height: 33px;
   width: 200px;
   text-decoration: none;
   padding-inline: 10px;
+  gap: 10px;
   font-family: 'Arial';
   display: flex;
   align-items: center;
   border-radius: 5px;
+}
+
+.bx {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .active,
@@ -87,9 +94,16 @@ section {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
+h3 {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+
+  font-weight: 700;
+  font-family: Arial;
+}
+
+.dropdown {
+  height: 25px;
+  font-family: Arial;
 }
 
 #su {
@@ -156,7 +170,6 @@ h2 {
   margin-left: -2px;
 }
 
-
 #city {
   position: relative;
   left: 20px;
@@ -191,9 +204,11 @@ h2 {
 }
 
 #submit {
-  margin-left: 350px;
-  border-color: #77b900;
+  margin-left: 288px;
+  height: 30px;
+  width: 100px;
   background-color: #77b900;
   color: #fefefe;
-  border-radius: 5px;
+  border-radius: 3px;
+  border: none;
 }
