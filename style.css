@@ -1,15 +1,20 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: #d6d4d5;
-  height: 96vh;
+  height: 100%;
 }
 
 .header {
   background-color: white;
-  width: 100%;
+  width: 102%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: relative;
+  margin: -8px 0px 0px -8px;
 }
 
 img {
@@ -27,7 +32,8 @@ img {
   content: "";
 }
 
-.nav_link::before {
+.nav_link,
+.footer_nav_l::before {
   padding-inline: 0px 3px;
   content: "|";
 }
@@ -76,22 +82,28 @@ section {
   height: 100%;
   width: 100%;
   display: flex;
-  align-items: center;
+
   justify-content: center;
+  text-align: right;
 }
 
 .content {
   background-color: #fefefe;
-  height: 555px;
+  height: 584px;
   width: 666px;
   justify-content: center;
   left: 600px;
-  position: absolute;
+  position: relative;
+  margin: 15px 0 15px 0;
 }
 
 #Add_Customer_info {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+  width: 155%;
+  margin: -12px 0px 17px -100px;
 }
 
 h3 {
@@ -109,60 +121,65 @@ h3 {
   background-color: #d6d4d5;
 }
 
-.su {
-  margin-left: 40px;
-}
-
 #pn,
 #su,
 #cn,
 #email,
 #ba1,
 #ba2,
-#city,
 #State,
+#city,
 #Z {
   position: relative;
   left: 20px;
-  margin-bottom: 5px;
-  width: 200px;
+  width: 280px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+  justify-content: right;
 }
 
-.pn {
-  margin-left: 7px;
+label {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: end;
 }
 
-.c {
-  margin-left: -14px;
+#State,
+#su {
+  margin-bottom: 15px;
+  width: 284px;
 }
-
-.email {
-  margin-left: 11px;
-}
-
-.ba1,
-.ba2 {
-  margin-left: -6px;
-}
-
-.city {
-  margin-left: 79px;
-}
-
-.st {
-  margin-left: 75px;
-}
-
-.z {
-  margin-left: 84px;
-}
-
 #submit {
-  margin-left: 288px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 350px;
   height: 30px;
   width: 100px;
   background-color: #77b900;
   color: #fefefe;
   border-radius: 3px;
   border: none;
+  bottom: 10px;
+}
+.footer {
+  margin: 0 0 0 -8px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0;
+  width: 100%;
+  background: white;
+}
+.footer_nav_l {
+  color: #77b900;
+}
+.helpertext {
+  color: red;
+  margin-left: 20px;
+  font-size: 15px;
+  margin-bottom: 5px;
 }

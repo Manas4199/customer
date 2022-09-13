@@ -58,7 +58,7 @@
       </nav>
       <div class="content">
         <section id="cu">
-          <form>
+          <form onsubmit="return valid()">
             <div class="h">
               <h3 id="Add_Customer_info" class="form_header">
                 Add Customer Info
@@ -79,27 +79,33 @@
             <hr />
             <div>
               <label for="pn" class="pn">Property Name</label>
-              <input type="text" id="pn" />
+              <input type="text" id="pn" /><br />
+              <span class="helpertext" id="prn"></span>
             </div>
             <div>
               <label for="cn" class="c">Customer Number</label>
-              <input type="text" id="cn" />
+              <input type="text" id="cn" /><br />
+              <span class="helpertext" id="cun"></span>
             </div>
             <div>
               <label for="email" class="email">Email Address</label>
-              <input type="email" id="email" />
+              <input type="email" id="email" /><br />
+              <span class="helpertext" id="em"></span>
             </div>
             <div>
               <label for="ba1" class="ba1">Billing Address 1</label>
-              <input type="text" id="ba1" />
+              <input type="text" id="ba1" /><br />
+              <span class="helpertext" id="bia1"></span>
             </div>
             <div>
               <label for="ba2" class="ba2">Billing Address 2</label>
-              <input type="text" id="ba2" />
+              <input type="text" id="ba2" /><br />
+              <span class="helpertext" id="bia2"></span>
             </div>
             <div>
               <label for="city" class="city">City</label>
-              <input type="text" id="city" />
+              <input type="text" id="city" /><br />
+              <span class="helpertext" id="ct"></span>
             </div>
             <div>
               <label for="State" class="st">State</label>
@@ -112,7 +118,8 @@
             </div>
             <div>
               <label for="Z" class="z">Zip</label>
-              <input type="number" id="Z" />
+              <input type="number" id="Z" /><br />
+              <span class="helpertext" id="pin"></span>
             </div>
             <div>
               <input type="submit" value="Save" id="submit" />
@@ -121,6 +128,16 @@
         </section>
       </div>
     </main>
+    <footer class="footer">
+      <div class="footer_nav">
+        2016 Windstream Communications. All rights reserved
+        <a class="footer_nav_l" href="#">Privacy Policy</a>
+        <a class="footer_nav_l" href="#">Terms of Use</a>
+        <a class="footer_nav_l" href="#">Legal Notices</a>
+        <a class="footer_nav_l" href="#">Windstream Network Statement</a>
+        <a class="footer_nav_l" href="#">Site Map</a>
+      </div>
+    </footer>
     <script src="./JavaScript.js"></script>
   </body>
 </html>
